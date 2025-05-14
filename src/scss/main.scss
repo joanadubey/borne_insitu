@@ -1,7 +1,7 @@
 @import "font";
 @import "base";
 @import "layout";
-@import "modules/example";
+@import "modules/bulle";
 
 body {
   background: #eee;
@@ -11,7 +11,7 @@ body {
   width: 1080px;
   height: 1920px;
   margin: 0 auto;
-  background: #fff;
+  background: pink;
 }
 
 @font-face {

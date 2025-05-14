@@ -7,7 +7,169 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="screen">votre contenu</div>
+    <div class="screen">
+      <extends
+        src="bulle.html"
+        locals='{"dates":"Sa 24.05","place":"Fribourg","title":"Festival Juvenalia"}'
+      >
+        <block name="circles">
+          <!-- CERCLE 1 -->
+          <div class="bulle-circles-tot">
+            <div class="bulle-circles-colors">
+              <svg
+                width="95"
+                height="95"
+                viewBox="0 0 95 95"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_f_62_478)">
+                  <circle cx="47.5" cy="47.5" r="37.5" fill="#0A6369" />
+                  <circle cx="47.5" cy="47.5" r="37" stroke="black" />
+                </g>
+                <circle
+                  cx="47.5"
+                  cy="47.5"
+                  r="36"
+                  stroke="black"
+                  stroke-width="3"
+                  stroke-dasharray="6 6"
+                />
+                <defs>
+                  <filter
+                    id="filter0_f_62_478"
+                    x="0.6"
+                    y="0.6"
+                    width="93.8"
+                    height="93.8"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="4.7"
+                      result="effect1_foregroundBlur_62_478"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+            <div class="bulle-circles-text">concert</div>
+          </div>
+
+          <!-- CERCLE 2 -->
+          <div class="bulle-circles-tot">
+            <div class="bulle-circles-colors">
+              <svg
+                width="94"
+                height="95"
+                viewBox="0 0 94 95"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_f_62_486)">
+                  <circle cx="47" cy="47.5" r="37.5" fill="#FE4E20" />
+                  <circle cx="47" cy="47.5" r="37" stroke="black" />
+                </g>
+                <circle
+                  cx="47"
+                  cy="47.5"
+                  r="36"
+                  stroke="black"
+                  stroke-width="3"
+                  stroke-dasharray="6 6"
+                />
+                <defs>
+                  <filter
+                    id="filter0_f_62_486"
+                    x="0.1"
+                    y="0.6"
+                    width="93.8"
+                    height="93.8"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="4.7"
+                      result="effect1_foregroundBlur_62_486"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+            <div class="bulle-circles-text">arts de la scène</div>
+          </div>
+
+          <!-- CERCLE 3 -->
+          <div class="bulle-circles-tot">
+            <div class="bulle-circles-colors">
+              <svg
+                width="95"
+                height="95"
+                viewBox="0 0 95 95"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_f_62_481)">
+                  <circle cx="47.5" cy="47.5" r="37.5" fill="#FFDF40" />
+                  <circle cx="47.5" cy="47.5" r="37" stroke="black" />
+                </g>
+                <circle
+                  cx="47.5"
+                  cy="47.5"
+                  r="36"
+                  stroke="black"
+                  stroke-width="3"
+                  stroke-dasharray="6 6"
+                />
+                <defs>
+                  <filter
+                    id="filter0_f_62_481"
+                    x="0.6"
+                    y="0.6"
+                    width="93.8"
+                    height="93.8"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="4.7"
+                      result="effect1_foregroundBlur_62_481"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+            <div class="bulle-circles-text">atelier</div>
+          </div>
+        </block>
+      </extends>
+
+      <!-- <extends
+        src="bulle.html"
+        locals='{"dates":"12.01 - 24.05","place":"Romont","title":"Passion et tradition - Portraits de paysan.ne.s glanois.es","circles":"Fribourg"}'
+      ></extends> -->
+    </div>
 
     <script src="js/main.js" type="module"></script>
   </body>
