@@ -1,0 +1,18 @@
+.main-call-to-action {
+  display: inline-flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 3px solid #000;
+  margin: 338px 181px 0 181px;
+}
+
+.main-call-to-action-text {
+  color: var(--noir, #000);
+  font-family: "Suisse Intl";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

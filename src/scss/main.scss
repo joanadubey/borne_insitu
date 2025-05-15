@@ -2,16 +2,20 @@
 @import "base";
 @import "layout";
 @import "modules/bulle";
+@import "modules/background-video";
+@import "modules/main-call-to-action";
+@import "modules/QR-code";
 
 body {
   background: #eee;
 }
 
 .screen {
+  position: relative;
   width: 1080px;
   height: 1920px;
   margin: 0 auto;
-  background: pink;
+  overflow: hidden;
 }
 
 @font-face {

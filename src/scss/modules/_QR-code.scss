@@ -1,0 +1,21 @@
+.QR-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1250px;
+}
+
+.QR-code-text {
+  font-family: "Self Modern";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.QR-code-svg {
+  width: 160.164px;
+  height: 160.164px;
+  flex-shrink: 0;
+}
