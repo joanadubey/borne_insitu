@@ -64,3 +64,39 @@ tl.to(event3, {
   duration: 0.3,
   delay: 5,
 });
+
+const languages = document.querySelector(".language-box");
+
+var tl = gsap.timeline({ repeat: -1 });
+tl.to(".language-box", {
+  opacity: 1,
+  delay: 3.6,
+});
+tl.to(".language-box", {
+  opacity: 0,
+  delay: 18,
+});
+
+const callToAction = document.querySelector(".main-call-to-action");
+
+var tl = gsap.timeline({ repeat: -1 });
+tl.to(".main-call-to-action", {
+  opacity: 1,
+  delay: 3.6,
+});
+tl.to(".main-call-to-action", {
+  opacity: 0,
+  delay: 18,
+});
+
+const qrCode = document.querySelector(".QR-code");
+
+var tl = gsap.timeline({ repeat: -1 });
+tl.to(".QR-code", {
+  opacity: 1,
+  delay: 3.6,
+});
+tl.to(".QR-code", {
+  opacity: 0,
+  delay: 18,
+});
