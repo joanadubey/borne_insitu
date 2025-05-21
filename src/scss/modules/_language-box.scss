@@ -3,13 +3,13 @@
   gap: 35px;
   font-family: "Suisse Intl";
   justify-content: flex-end;
+  margin-top: 28px;
 }
 
 .language-button {
   padding: 10px 20px;
   border-radius: 50px;
-  border: 2px dashed #333;
-  background-color: white;
+  border: 2px dashed black;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   width: 90px;
@@ -17,8 +17,9 @@
   font-size: 40px;
   margin-right: 25px;
   margin-top: 25px;
+  background-color: transparent;
 }
 
 .language-button.active {
-  border: 2px solid #333;
+  border: 2px solid black;
 }
